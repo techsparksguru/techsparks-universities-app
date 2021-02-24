@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "name": "task"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "university": {
+      "model": "universities"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "backlog",
+        "inprogress",
+        "ready_for_review",
+        "done"
+      ],
+      "default": "backlog"
+    },
+    "approved": {
+      "type": "boolean",
+      "default": false
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

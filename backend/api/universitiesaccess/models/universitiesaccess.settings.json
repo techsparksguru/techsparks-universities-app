@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "universitiesaccesses",
+  "info": {
+    "name": "universitiesaccess"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "access": {
+      "type": "json"
+    }
+  }
+}

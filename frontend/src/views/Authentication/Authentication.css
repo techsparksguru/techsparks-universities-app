@@ -1,0 +1,14 @@
+.tandc h2,
+.tandc h3 {
+  font-size: initial;
+}
+.tandc {
+  max-height: 60vh;
+  overflow-y: scroll;
+}
+/deep/ .ant-modal-body {
+  text-transform: capitalize!important;
+}
+/deep/ .ant-modal-title, .ant-modal-header {
+  color:red!important;
+}

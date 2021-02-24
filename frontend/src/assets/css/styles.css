@@ -1,0 +1,158 @@
+body {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  overflow-y: hidden;
+}
+
+body::-webkit-scrollbar,
+.ant-drawer-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track,
+.ant-drawer-body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 4px #808080;
+}
+
+body::-webkit-scrollbar-thumb,
+.ant-drawer-body::-webkit-scrollbar-thumb{
+  background: #3f4d67;
+  border-radius: 8px;
+}
+
+body::-webkit-scrollbar-thumb:hover,
+.ant-drawer-body::-webkit-scrollbar-thumb:hover {
+  background: #002140;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #002140;
+}
+::-webkit-scrollbar-thumb{
+  background: #808080;
+  border-radius: 8px;
+}
+::-webkit-scrollbar {
+  stroke-width: 4px;
+  width: 6px;
+  height: 6px;
+}
+
+.ant-drawer-body {
+  height: calc(100vh - 110px);
+  overflow-y: auto;
+}
+
+.ant-layout-content {
+  min-height: auto;
+}
+
+.preview-drawer .ant-drawer-body {
+  padding: 0;
+  margin: 0;
+}
+
+.ant-drawer-wrapper-body {
+  overflow: initial;
+}
+
+input {
+  height: auto;
+}
+
+.vue-swatches__trigger {
+  border: 1px solid #00000085;
+}
+
+.headerLayout {
+  margin: -10px;
+}
+
+.ProseMirror {
+  outline: 0px;
+}
+
+.ant-layout-sider,
+.ant-layout-header {
+  box-shadow: 2px 1px 4px #d3d3d3;
+}
+
+.ant-form-item-label label::before {
+  content: "\00a0";
+  margin-right: 4px;
+  display: inline-block;
+}
+
+.ant-form-explain {
+  text-align: left;
+}
+
+.table-border-top {
+  border-top: 1px solid #e8e8ef;
+}
+
+tr:nth-child(even) > td {
+  background-color: #fafafa;
+}
+
+.refetch-button::before {
+  background-color: transparent;
+}
+
+.required-field label::before {
+  display: inline-block;
+  margin-right: 4px;
+  color: #f5222d;
+  font-size: 14px;
+  font-family: SimSun, sans-serif;
+  content: "*";
+}
+
+@keyframes rotating {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+
+.text-capitalize,
+.text-capitalize input,
+.v-autocomplete__content {
+  text-transform: capitalize;
+}
+.ant-layout-content {
+  background-color: #f7faff !important;
+}
+.ant-table-header-column {
+  color: #607d8b;
+}
+.ant-table-tbody > tr > td{
+    border-bottom: 1px solid #e8e8e800;
+}
+
+.ant-table-thead > tr > th{
+    padding: 18px 16px;
+}
+
+.ant-layout-sider{
+    
+}
+
+.transparent-select .ant-select-selection,.transparent-select .ant-select-open.ant-select-selection{
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border:0px !important;
+  outline:0px !important;
+  color:inherit !important
+}
+
+.ant-avatar-image{
+  cursor: pointer;
+}
+.ant-avatar > img{
+  object-fit: contain;
+}

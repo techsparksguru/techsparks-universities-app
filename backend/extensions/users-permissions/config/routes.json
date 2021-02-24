@@ -1,0 +1,22 @@
+{
+  "routes": [
+    {
+      "method": "PUT",
+      "path": "/users/me",
+      "handler": "User.updateme",
+      "config": {
+        "policies": [],
+        "prefix": ""
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/users",
+      "handler": "User.create",
+      "config": {
+        "policies": [],
+        "prefix": ""
+      }
+    }
+  ]
+}

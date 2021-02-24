@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/universitiesaccesses",
+      "handler": "universitiesaccess.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/universitiesaccesses/count",
+      "handler": "universitiesaccess.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/universitiesaccesses/:id",
+      "handler": "universitiesaccess.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/universitiesaccesses",
+      "handler": "universitiesaccess.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/universitiesaccesses/:id",
+      "handler": "universitiesaccess.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/universitiesaccesses/:id",
+      "handler": "universitiesaccess.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

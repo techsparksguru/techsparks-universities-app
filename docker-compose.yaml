@@ -1,0 +1,41 @@
+version: "3"
+services:
+  backend:
+    hostname: backend
+    ports:
+      - "1337:1337"
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    volumes:
+       - ./backend:/usr/src/app/backend
+       - /usr/src/app/backend/node_modules
+       - /usr/src/app/backend/build
+       - ./data:/usr/src/app/backend/.tmp
+    environment: 
+      - HOST=0.0.0.0
+      - PORT=1337
+      - GOOGLE_MAPS_API_KEY=
+      - AWS_SES_KEY=
+      - AWS_SES_SECRET=
+      - EMAIL_FROM=
+      - NODE_ENV=development
+  frontend:
+    hostname: frontend
+    ports:
+      - 8083:80
+    depends_on: 
+      - backend
+    links: 
+      - backend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    volumes:
+       - ./frontend:/usr/src/app/frontend
+       - /usr/src/app/frontend/node_modules
+    environment: 
+      - VUE_APP_API_URL="http://localhost:1337/"
+      - VUE_APP_APP_NAME="Universities app"
+      - VUE_APP_FOOTER_TEXT="2020 Created by Techsparks"
+

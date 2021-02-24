@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "universities",
+  "info": {
+    "name": "Universities"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "established": {
+      "type": "integer"
+    },
+    "specialization": {
+      "type": "string"
+    },
+    "formatted_address": {
+      "type": "text"
+    },
+    "international_phone_number": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "university_type": {
+      "type": "string"
+    },
+    "wikipedia_url": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "district": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "geometry": {
+      "type": "json"
+    },
+    "place_id": {
+      "type": "string"
+    },
+    "plus_code": {
+      "type": "json"
+    },
+    "map_url": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "backlog",
+        "success",
+        "inprogress",
+        "failure"
+      ]
+    },
+    "comments": {
+      "type": "json"
+    },
+    "contacted": {
+      "type": "boolean",
+      "default": false
+    },
+    "state": {
+      "type": "string"
+    }
+  }
+}

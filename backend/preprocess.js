@@ -1,0 +1,3 @@
+var csv = `"name","established","specialization","formatted_address","international_phone_number","website","university_type","wikipedia_url","city","district","state","country","geometry","place_id","plus_code","map_url","contacted","status"
+"Karnavati University",2017,"Engineering","A/907, Uvarsad-Adalaj Road At. & Po.: Uvarsad, Dist.:, Gandhinagar, Gujarat 382422, India","+91 96670 48555","http://www.karnavatiuniversity.edu.in/","private","","Gandhinagar","Gandhinagar","Gujarat","india","{}","ChIJr60s8AkpXDkRusJJigf0CMk","{}","https://maps.google.com/?cid=14486096514659238586",true,"success"`
+
