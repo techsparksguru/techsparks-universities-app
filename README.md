@@ -7,11 +7,11 @@ A web application that gives a kickstart to your Marketing & Sales team(s) reach
 
 | Bootstrap App                                             | Admin App                                      | App - Admin                                  |
 | --------------------------------------------------------- | ---------------------------------------------- | -------------------------------------------- |
-| !\[Start App\](./gifs/start\_docker\_compose\_up.mp4.gif) | !\[Admin\](./gifs/admin\_console\_app.mp4.gif) | !\[App - admin\](./gifs/admin\_role.mp4.gif) |   
+| ![Start App](./gifs/start_docker_compose_up.mp4.gif) | ![Admin](./gifs/admin_console_app.mp4.gif) | ![App - admin](./gifs/admin_role.mp4.gif) |   
 
 | App - Authenticated                                          | App - Readonly                                     | App - Done                                               |
 | ------------------------------------------------------------ | -------------------------------------------------- | -------------------------------------------------------- |
-| !\[App - authenticated\](./gifs/authenticated\_role.mp4.gif) | !\[App - readonly\](./gifs/readonly\_role.mp4.gif) | !\[App - Done\](./gifs/approval\_move\_to\_done.mp4.gif) |
+| ![App - authenticated](./gifs/authenticated_role.mp4.gif) | ![App - readonly](./gifs/readonly_role.mp4.gif) | ![App - Done](./gifs/approval_move_to_done.mp4.gif) |
 
 
 ## Demo Videos
